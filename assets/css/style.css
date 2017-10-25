@@ -1,0 +1,285 @@
+/*Begin Index Styling */
+
+html {
+	position: relative;
+}
+
+html, body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	background-color:  #ffffff;
+	background:url("../images/hypnotize.png");
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+	font-weight: 675;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	border:2px solid #cccccc;
+	background-color: #ffffff;
+}
+
+p {
+
+	text-align: justify;
+	margin-right: 20px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.content {
+	width:960px
+
+}
+
+
+.navbar {
+	text-align: right;
+	width:270px;
+	float: right;
+	margin-top: 50px;
+	
+}
+
+
+
+.main {
+	border: 1px solid #dddddd;
+	width: 650px;
+	float:left;
+	margin-top: 25px;
+	margin-left: 202px;
+	background-color: #ffffff;
+
+}
+
+
+.title {
+	text-align: left;
+	margin:25px 25px 25px 21px;
+	border-bottom:2px solid #cccccc;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.navbar ul li+li {
+	border-left:1px solid #cccccc;
+}
+
+.navbar ul li  {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: .75em;
+	padding-left: .75em;
+}
+
+.navbar ul li a:hover {
+	color:#88FFF9;
+	transition: color .5s
+}
+
+
+
+.brand {
+	display: inline-block;
+	background-color: #4aaaa5;
+	padding:25px;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top:25px;
+	width: auto;
+	letter-spacing: 0.05em;
+
+}
+
+img.portrait{
+	float:left;
+	width: 160px;
+	height: 240px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+
+}
+
+.sidebar {
+	
+	border: 1px solid #dddddd;
+	text-align: center;
+	float:right;
+	margin-right: -212px;
+	margin-top: 25px;
+	background-color: #ffffff;
+	padding: 50px;
+
+
+
+}
+
+
+
+.sidebartitle {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-top: -25px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+}
+
+.social{
+	margin-top: 10px;
+}
+
+.fa {
+  padding: 13px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float:left;
+  height: 20px;
+
+}
+
+.fa-github {
+	background-color: black;
+	color: white;
+	margin-right:-16px;
+}
+
+.fa-linkedin {
+  
+  background-color:  #007bb5;
+  color: white;
+  margin-left: 32px;
+}
+
+.fa-stack-exchange {
+	background-color: #f59e59;
+  float:right;
+  margin-right: 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: opacity .25s ease-in-out;
+}
+
+/*End Index Styling */
+
+/*Contact styling*/
+
+form {
+	width:500px;
+	margin: 0 auto 0 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+
+input#name, input#email {
+	height:20px;
+	color:#777777;
+}
+
+
+
+textarea#message {
+	color:#777777;
+}
+
+
+input[type="submit"] {
+	font-size: 1.25em;
+	background-color: #4aaaa5;
+	color:white;
+	padding:10px 30px 10px 30px;
+	margin-bottom:20px;
+	border:none;
+}
+
+/* End Contact Styling */
+
+/*Begin Portfolio styling */
+
+.showcase {
+	display:inline-block;
+	position: relative;
+	width: 270px;
+	height: 200px;
+}
+
+div#sidebar {
+    border: 1px solid #dddddd;
+    text-align: center;
+    float: right;
+    margin-right: 194px;
+    margin-top: 25px;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.port {
+	padding-left: 20px;
+
+}
+
+li#sc1, li#sc2, li#sc3 {
+	padding-right:61px;
+	padding-bottom:61px;
+
+}
+
+.blurb {
+	
+	position: relative;
+	z-index: 1000;
+	text-align: center;
+	top: -75px;
+	color:white;
+	background-color: #4aaaa5;
+	padding:1em;
+	font-size: 1.25em;
+
+}
+/*End Portfolio Styling */
+
+
+
+
+
+
+/*Begin Footer Styling */
+
+footer {
+	width: 100%;
+	background-color:#666666 ;
+	border-top: 7px solid #4aaaa5;
+	color:#777777;
+	text-align: center;
+	padding: 25px;
+	margin-top:444px;
+	
+	}
+
+/* End Footer Styling */
