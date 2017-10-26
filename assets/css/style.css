@@ -283,8 +283,9 @@ footer {
 	text-align: center;
 	padding: 25px;
 	margin-top:444px;
-	position:fixed;
-	
+	position:relative;
+	bottom:0;
+	left:0;
 	}
 
 /* End Footer Styling */
