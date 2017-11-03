@@ -47,8 +47,10 @@ p {
 }
 
 ul.bigtitle {
-    padding-top: 25rem;
+    /*padding-top: 25rem;*/
     list-style-type: none;
+    position: relative;
+    top: 150px;
     
 }
 
